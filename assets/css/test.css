@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: Montserrat;
+}
+
+#header{
+    background: url("../img/slider2.jpg") top center/cover no-repeat;
+    position: relative;
+width: 100;
+height: 1080px;    
+
+}
+#header>.header-firts{
+
+
+}
+#header .nav{
+    position: absolute;
+    list-style-type: none;
+    top: 0;
+    right: 0;
+display: flex;
+font-size: 20px;
+line-height: 25px;
+
+
+}
+#header .nav li{
+    padding: 25px;
+    
+
+} 
+#header .nav li a{
+    text-decoration: none;
+    color: #fff;
+  
+}
+#header .logo{
+    background-color:#E0B973;
+    border-radius: 20%;
+    padding: 36px 30px;
+    position: absolute;
+    top: -14px;
+    left: 70px;
+
+}
+#header .content-heading{
+    position: absolute;
+    left: 85px;
+    top: 190px;
+    color: cornsilk;
+}
+#header .content-heading .content-welcome{
+    font-size: 30px;
+    font-weight: 100;
+}
+#header .content-heading h1{
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: 0.07em;
+    line-height: 100px;
+}
+#header .content-heading .content-brand{
+    font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: 0.4em;
+
+}
+#header .click{
+    background-color:#E0B973 ;
+    position: absolute;
+    padding: 16px 20px;
+    border-radius: 16px;
+    top: 477px;
+    left: 575px;
+
+}
+#header .click a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#header .click i{
+    color: #fff;
+    margin-right: 10px;
+}
+
+#header .sub-header{
+    color: #fff;
+    position: absolute;
+    top: auto;
+    left: 675px;
+    bottom: 30px;
+    
+
+}
+
+#header .sub-header h5{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+#header .sub-header .sub-ti{
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 46px;
+    padding-left: 10px;
+    
+}
+
+.slogan-group{
+    width: 1000px;
+    margin-top: 25px;
+ 
+ margin: 30px auto;
+
+}
+.slogan-group #slogan-text{
+    text-align: center;
+}
+.slogan-group #slogan-text>h4{
+    font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 72px;
+letter-spacing: 0.05em;
+}
+.slogan-group #slogan-text>p{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+}
+.content .main-content{
+    background: url('../img/content1.jpg')top center/cover no-repeat;
+}
+.content .main-content,
+.content .main-content2,
+.content .main-content3,
+.content .main-content4,
+.content .main-content5,
+.content .main-content6 {
+    position: relative;
+    height: 700px;
+    width: 1000px;
+    margin: 120px 177px;
+
+
+}
+.content .main-content2 {
+    background: url('../img/content2.jpg')top center/cover no-repeat;
+}
+.content .main-content3 {
+    background: url('../img/content3.jpg')top center/cover no-repeat;
+}
+.content .main-content4 {
+    background: url('../img/content4.jpg')top center/cover no-repeat;
+}
+.content .main-content5 {
+    background: url('../img/content5.jpg')top center/cover no-repeat;
+}
+.content .main-content6 {
+    background: url('../img/content7.jpg')top center/cover no-repeat;
+}
+.content .name-services{
+position: absolute;
+background-color: #fff ;
+padding: 15px 150px;
+bottom: 0;
+left: 285px;
+border-radius: 5px;
+
+}
+.content .name-services h2{
+    font-weight: bold;
+}
+.end-content{
+    margin-top: -50px;
+    text-align: center;
+}
+.end-content>h4{
+    font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 72px;
+
+}
+.end-content>span{
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 50px;
+/* identical to box height */
+color: #14274A;
+
+}
+.end-content>p{
+    font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+padding: 10px 0;
+}
+
+.end-content>a{
+    text-decoration: none;
+
+
+}
+.end-content .ti-control{
+    margin-left: 5px;
+    font-size: 32px; 
+    background: #E0B973;
+    border-radius: 30%;
+}
+
+#footer{
+    position: relative;
+    color: #fff;
+    margin-top: 60px;
+    height: 250px;
+    background-color: #14274A;
+}
+#footer .footer-address{
+    position: absolute;
+    top: 52px;
+    left: 52px;
+  
+}
+#footer .footer-address>h4{
+    font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.15em;
+}
+#footer .footer-address #add-hotel{
+    font-style: normal;
+font-weight: bold;
+opacity: 0.6;
+font-size: 9px;
+line-height: 11px;
+letter-spacing: 0.6em;
+padding: 8px 25px;
+}
+#footer .footer-add{
+    font-size: 14px;
+line-height: 17px;
+font-weight: 500;
+   
+
+}
+
+#footer .footer-contact{
+    position: absolute;
+    top: 45px;
+    left: 441px;
+}
+#footer .footer-contact>a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 20px;
+line-height: 20px;
+padding: 10px;
+}
+#footer .footer-social{
+    position: absolute;
+    top: 38px;
+    left: 800px;
+}
+#footer .footer-social a{
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#footer .control-social{
+ padding: 10px 0;   
+}
+#footer .footer-last{
+    position: absolute;
+    top: 51px;
+    left: 1051px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#footer .footer-last span{
+    display: block;
+margin-bottom: 20px;
+}
+#footer .footer-last>input{
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #E0B973;
+background-color: #14274A;
+}
+::placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
+#footer .footer-last>button{
+  margin-left: -6px;
+    background-color: #E0B973;
+    padding: 13px 22px;
+}
+
+
+
+
